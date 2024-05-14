@@ -21,7 +21,5 @@ namespace MetaMonkeysBillingSystem.App.Models
 
         [StringLength(20)]
         public string Password { get; set; } = null!;
-
-
     }
 }
