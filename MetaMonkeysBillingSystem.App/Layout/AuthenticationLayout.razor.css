@@ -1,20 +1,12 @@
-﻿.page {
-    position: relative;
+﻿.startupPgContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credentialsInput {
     display: flex;
     flex-direction: column;
-}
 
-main {
-    flex: 1;
-}
-
-#startupImg {
-    height: 700px;
-    width: 683px;
-}
-
-.circle {
-    border-radius: 10%;
-    width: 100%;
-    height: 100%;
 }
